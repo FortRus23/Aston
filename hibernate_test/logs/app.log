@@ -1,0 +1,1188 @@
+2025-09-14 06:37:54 [INFO] org.hibernate.Version - HHH000412: Hibernate ORM core version 7.1.0.Final
+2025-09-14 06:37:54 [WARN] org.hibernate.orm.deprecation - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2025-09-14 06:37:54 [WARN] o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-09-14 06:37:54 [WARN] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-14 06:37:54 [INFO] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/user_db]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 17.5
+	Default catalog/schema: user_db/public
+	Autocommit mode: false
+	Isolation level: READ_COMMITTED
+	JDBC fetch size: none
+	Pool: DriverManagerConnectionProviderImpl
+	Minimum pool size: 1
+	Maximum pool size: 20
+2025-09-14 06:37:55 [INFO] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-14 06:38:03 [WARN] org.hibernate.orm.jdbc.error - HHH000247: ErrorCode: 0, SQLState: 23505
+2025-09-14 06:38:03 [WARN] org.hibernate.orm.jdbc.error - ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "_user_email_key"
+  Detail: Ключ "(email)=(new@mail.ru)" уже существует.
+2025-09-14 06:38:03 [WARN] ru.sakhapov.UserDao - юзер с email new@mail.ru уже существует
+2025-09-14 06:38:03 [INFO] ru.sakhapov.Main - Создан юзер: new@mail.ru
+2025-09-14 06:38:47 [INFO] org.hibernate.Version - HHH000412: Hibernate ORM core version 7.1.0.Final
+2025-09-14 06:38:47 [WARN] org.hibernate.orm.deprecation - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2025-09-14 06:38:47 [WARN] o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-09-14 06:38:47 [WARN] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-14 06:38:47 [INFO] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/user_db]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 17.5
+	Default catalog/schema: user_db/public
+	Autocommit mode: false
+	Isolation level: READ_COMMITTED
+	JDBC fetch size: none
+	Pool: DriverManagerConnectionProviderImpl
+	Minimum pool size: 1
+	Maximum pool size: 20
+2025-09-14 06:38:48 [INFO] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-14 06:38:48 [INFO] ru.sakhapov.UserDao - Пользователь сохранён: new@mail.ru
+2025-09-14 06:38:55 [WARN] org.hibernate.orm.jdbc.error - HHH000247: ErrorCode: 0, SQLState: 23505
+2025-09-14 06:38:55 [WARN] org.hibernate.orm.jdbc.error - ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "_user_email_key"
+  Detail: Ключ "(email)=(new@mail.ru)" уже существует.
+2025-09-14 06:38:55 [WARN] ru.sakhapov.UserDao - юзер с email new@mail.ru уже существует
+2025-09-17 13:28:09 [INFO] org.hibernate.Version - HHH000412: Hibernate ORM core version 7.1.0.Final
+2025-09-17 13:28:09 [WARN] org.hibernate.orm.deprecation - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2025-09-17 13:28:10 [WARN] o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-09-17 13:28:10 [WARN] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-17 13:28:10 [INFO] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/user_db]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 17.5
+	Default catalog/schema: user_db/public
+	Autocommit mode: false
+	Isolation level: READ_COMMITTED
+	JDBC fetch size: none
+	Pool: DriverManagerConnectionProviderImpl
+	Minimum pool size: 1
+	Maximum pool size: 20
+2025-09-17 13:28:11 [INFO] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-17 13:28:11 [INFO] ru.sakhapov.UserDao - Пользователь сохранён: 23@mail.ru
+2025-09-17 13:28:11 [INFO] ru.sakhapov.UserService - Создан юзер: 23@mail.ru
+2025-09-17 13:28:27 [INFO] ru.sakhapov.UserDao - Юзер обновлен: id = 3
+2025-09-17 13:28:27 [INFO] ru.sakhapov.UserService - Обновлен юзер id=3 email=25@mail.ru
+2025-09-20 14:20:22 [INFO] o.testcontainers.images.PullPolicy - Image pull policy will be performed by: DefaultPullPolicy()
+2025-09-20 14:20:22 [INFO] o.t.utility.ImageNameSubstitutor - Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+2025-09-20 14:20:22 [INFO] o.testcontainers.DockerClientFactory - Testcontainers version: 1.20.0
+2025-09-20 14:20:22 [INFO] o.t.d.DockerMachineClientProviderStrategy - docker-machine executable was not found on PATH ([C:\Program Files\Common Files\Oracle\Java\javapath, C:\Program Files (x86)\Common Files\Oracle\Java\java8path, C:\Program Files (x86)\Common Files\Oracle\Java\javapath, C:\Windows\system32, C:\Windows, C:\Windows\System32\Wbem, C:\Windows\System32\WindowsPowerShell\v1.0\, C:\Windows\System32\OpenSSH\, C:\Program Files\AmneziaWG\, C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR, C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common, C:\Program Files\dotnet\, C:\Program Files\Git\cmd, C:\Program Files\Docker\Docker\resources\bin, C:\Program Files\GitHub CLI\, C:\Program Files\nodejs\, C:\Program Files\PuTTY\, C:\Users\Fort\AppData\Local\Programs\Python\Python313\Scripts\, C:\Users\Fort\AppData\Local\Programs\Python\Python313\, C:\Users\Fort\AppData\Local\Microsoft\WindowsApps, , C:\Program Files\JetBrains\PyCharm Community Edition 2025.1.1\bin, , C:\Users\Fort\AppData\Roaming\npm, C:\Users\Fort\AppData\Local\Programs\Microsoft VS Code\bin])
+2025-09-20 14:20:22 [ERROR] o.t.d.DockerClientProviderStrategy - Could not find a valid Docker environment. Please check configuration. Attempted configurations were:
+As no valid configuration was found, execution cannot continue.
+See https://java.testcontainers.org/on_failure.html for more details.
+2025-09-20 14:20:36 [INFO] o.testcontainers.images.PullPolicy - Image pull policy will be performed by: DefaultPullPolicy()
+2025-09-20 14:20:36 [INFO] o.t.utility.ImageNameSubstitutor - Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+2025-09-20 14:20:36 [INFO] o.testcontainers.DockerClientFactory - Testcontainers version: 1.20.0
+2025-09-20 14:20:36 [INFO] o.t.d.DockerMachineClientProviderStrategy - docker-machine executable was not found on PATH ([C:\Program Files\Common Files\Oracle\Java\javapath, C:\Program Files (x86)\Common Files\Oracle\Java\java8path, C:\Program Files (x86)\Common Files\Oracle\Java\javapath, C:\Windows\system32, C:\Windows, C:\Windows\System32\Wbem, C:\Windows\System32\WindowsPowerShell\v1.0\, C:\Windows\System32\OpenSSH\, C:\Program Files\AmneziaWG\, C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR, C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common, C:\Program Files\dotnet\, C:\Program Files\Git\cmd, C:\Program Files\Docker\Docker\resources\bin, C:\Program Files\GitHub CLI\, C:\Program Files\nodejs\, C:\Program Files\PuTTY\, C:\Users\Fort\AppData\Local\Programs\Python\Python313\Scripts\, C:\Users\Fort\AppData\Local\Programs\Python\Python313\, C:\Users\Fort\AppData\Local\Microsoft\WindowsApps, , C:\Program Files\JetBrains\PyCharm Community Edition 2025.1.1\bin, , C:\Users\Fort\AppData\Roaming\npm, C:\Users\Fort\AppData\Local\Programs\Microsoft VS Code\bin])
+2025-09-20 14:20:36 [ERROR] o.t.d.DockerClientProviderStrategy - Could not find a valid Docker environment. Please check configuration. Attempted configurations were:
+As no valid configuration was found, execution cannot continue.
+See https://java.testcontainers.org/on_failure.html for more details.
+2025-09-20 14:21:47 [INFO] o.testcontainers.images.PullPolicy - Image pull policy will be performed by: DefaultPullPolicy()
+2025-09-20 14:21:47 [INFO] o.t.utility.ImageNameSubstitutor - Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+2025-09-20 14:21:47 [INFO] o.testcontainers.DockerClientFactory - Testcontainers version: 1.20.0
+2025-09-20 14:21:48 [INFO] o.t.d.DockerClientProviderStrategy - Found Docker environment with local Npipe socket (npipe:////./pipe/docker_engine)
+2025-09-20 14:21:48 [INFO] o.testcontainers.DockerClientFactory - Docker host IP address is localhost
+2025-09-20 14:21:48 [INFO] o.testcontainers.DockerClientFactory - Connected to docker: 
+  Server Version: 28.3.0
+  API Version: 1.51
+  Operating System: Docker Desktop
+  Total Memory: 7903 MB
+2025-09-20 14:21:48 [INFO] tc.testcontainers/ryuk:0.8.1 - Pulling docker image: testcontainers/ryuk:0.8.1. Please be patient; this may take some time but only needs to be done once.
+2025-09-20 14:21:48 [INFO] o.t.utility.RegistryAuthLocator - Credential helper/store (docker-credential-desktop) does not have credentials for https://index.docker.io/v1/
+2025-09-20 14:21:50 [INFO] tc.testcontainers/ryuk:0.8.1 - Starting to pull image
+2025-09-20 14:21:50 [INFO] tc.testcontainers/ryuk:0.8.1 - Pulling image layers:  0 pending,  0 downloaded,  0 extracted, (0 bytes/0 bytes)
+2025-09-20 14:21:51 [INFO] tc.testcontainers/ryuk:0.8.1 - Pulling image layers:  2 pending,  1 downloaded,  0 extracted, (2 MB/? MB)
+2025-09-20 14:21:51 [INFO] tc.testcontainers/ryuk:0.8.1 - Pulling image layers:  1 pending,  2 downloaded,  0 extracted, (2 MB/? MB)
+2025-09-20 14:21:51 [INFO] tc.testcontainers/ryuk:0.8.1 - Pulling image layers:  1 pending,  2 downloaded,  1 extracted, (2 MB/? MB)
+2025-09-20 14:21:51 [INFO] tc.testcontainers/ryuk:0.8.1 - Pulling image layers:  1 pending,  2 downloaded,  2 extracted, (3 MB/? MB)
+2025-09-20 14:21:52 [INFO] tc.testcontainers/ryuk:0.8.1 - Pulling image layers:  0 pending,  3 downloaded,  2 extracted, (5 MB/6 MB)
+2025-09-20 14:21:52 [INFO] tc.testcontainers/ryuk:0.8.1 - Pulling image layers:  0 pending,  3 downloaded,  3 extracted, (5 MB/6 MB)
+2025-09-20 14:21:52 [INFO] tc.testcontainers/ryuk:0.8.1 - Pull complete. 3 layers, pulled in 1s (downloaded 5 MB at 5 MB/s)
+2025-09-20 14:21:52 [INFO] tc.testcontainers/ryuk:0.8.1 - Image testcontainers/ryuk:0.8.1 pull took PT3.8534557S
+2025-09-20 14:21:52 [INFO] tc.testcontainers/ryuk:0.8.1 - Creating container for image: testcontainers/ryuk:0.8.1
+2025-09-20 14:21:52 [INFO] tc.testcontainers/ryuk:0.8.1 - Container testcontainers/ryuk:0.8.1 is starting: e69cdae66ad5ba8be646197edfe742c586ecff50b159d477f9ebedfec8df4e13
+2025-09-20 14:21:52 [INFO] tc.testcontainers/ryuk:0.8.1 - Container testcontainers/ryuk:0.8.1 started in PT0.6467223S
+2025-09-20 14:21:52 [INFO] o.t.utility.RyukResourceReaper - Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+2025-09-20 14:21:52 [INFO] o.testcontainers.DockerClientFactory - Checking the system...
+2025-09-20 14:21:52 [INFO] o.testcontainers.DockerClientFactory - ✔︎ Docker server version should be at least 1.6.0
+2025-09-20 14:21:52 [INFO] tc.postgres:15 - Pulling docker image: postgres:15. Please be patient; this may take some time but only needs to be done once.
+2025-09-20 14:21:54 [INFO] tc.postgres:15 - Starting to pull image
+2025-09-20 14:21:54 [INFO] tc.postgres:15 - Pulling image layers:  0 pending,  0 downloaded,  0 extracted, (0 bytes/0 bytes)
+2025-09-20 14:21:55 [INFO] tc.postgres:15 - Pulling image layers: 13 pending,  1 downloaded,  0 extracted, (0 bytes/? MB)
+2025-09-20 14:21:56 [INFO] tc.postgres:15 - Pulling image layers: 12 pending,  2 downloaded,  0 extracted, (1 MB/? MB)
+2025-09-20 14:21:56 [INFO] tc.postgres:15 - Pulling image layers: 11 pending,  3 downloaded,  0 extracted, (3 MB/? MB)
+2025-09-20 14:21:56 [INFO] tc.postgres:15 - Pulling image layers: 10 pending,  4 downloaded,  0 extracted, (4 MB/? MB)
+2025-09-20 14:21:56 [INFO] tc.postgres:15 - Pulling image layers:  9 pending,  5 downloaded,  0 extracted, (7 MB/? MB)
+2025-09-20 14:21:56 [INFO] tc.postgres:15 - Pulling image layers:  8 pending,  6 downloaded,  0 extracted, (9 MB/? MB)
+2025-09-20 14:21:56 [INFO] tc.postgres:15 - Pulling image layers:  7 pending,  7 downloaded,  0 extracted, (9 MB/? MB)
+2025-09-20 14:21:56 [INFO] tc.postgres:15 - Pulling image layers:  6 pending,  8 downloaded,  0 extracted, (11 MB/? MB)
+2025-09-20 14:21:57 [INFO] tc.postgres:15 - Pulling image layers:  5 pending,  9 downloaded,  0 extracted, (17 MB/? MB)
+2025-09-20 14:21:57 [INFO] tc.postgres:15 - Pulling image layers:  4 pending, 10 downloaded,  0 extracted, (18 MB/? MB)
+2025-09-20 14:21:57 [INFO] tc.postgres:15 - Pulling image layers:  3 pending, 11 downloaded,  0 extracted, (25 MB/? MB)
+2025-09-20 14:21:59 [INFO] tc.postgres:15 - Pulling image layers:  2 pending, 12 downloaded,  0 extracted, (81 MB/? MB)
+2025-09-20 14:21:59 [INFO] tc.postgres:15 - Pulling image layers:  1 pending, 13 downloaded,  0 extracted, (99 MB/? MB)
+2025-09-20 14:22:00 [INFO] tc.postgres:15 - Pulling image layers:  1 pending, 13 downloaded,  1 extracted, (111 MB/? MB)
+2025-09-20 14:22:00 [INFO] tc.postgres:15 - Pulling image layers:  1 pending, 13 downloaded,  2 extracted, (115 MB/? MB)
+2025-09-20 14:22:00 [INFO] tc.postgres:15 - Pulling image layers:  1 pending, 13 downloaded,  3 extracted, (119 MB/? MB)
+2025-09-20 14:22:00 [INFO] tc.postgres:15 - Pulling image layers:  1 pending, 13 downloaded,  4 extracted, (119 MB/? MB)
+2025-09-20 14:22:00 [INFO] tc.postgres:15 - Pulling image layers:  1 pending, 13 downloaded,  5 extracted, (128 MB/? MB)
+2025-09-20 14:22:01 [INFO] tc.postgres:15 - Pulling image layers:  1 pending, 13 downloaded,  6 extracted, (129 MB/? MB)
+2025-09-20 14:22:01 [INFO] tc.postgres:15 - Pulling image layers:  1 pending, 13 downloaded,  7 extracted, (129 MB/? MB)
+2025-09-20 14:22:01 [INFO] tc.postgres:15 - Pulling image layers:  1 pending, 13 downloaded,  8 extracted, (130 MB/? MB)
+2025-09-20 14:22:01 [INFO] tc.postgres:15 - Pulling image layers:  0 pending, 14 downloaded,  8 extracted, (148 MB/148 MB)
+2025-09-20 14:22:04 [INFO] tc.postgres:15 - Pulling image layers:  0 pending, 14 downloaded,  9 extracted, (148 MB/148 MB)
+2025-09-20 14:22:04 [INFO] tc.postgres:15 - Pulling image layers:  0 pending, 14 downloaded, 10 extracted, (148 MB/148 MB)
+2025-09-20 14:22:04 [INFO] tc.postgres:15 - Pulling image layers:  0 pending, 14 downloaded, 11 extracted, (148 MB/148 MB)
+2025-09-20 14:22:04 [INFO] tc.postgres:15 - Pulling image layers:  0 pending, 14 downloaded, 12 extracted, (148 MB/148 MB)
+2025-09-20 14:22:04 [INFO] tc.postgres:15 - Pulling image layers:  0 pending, 14 downloaded, 13 extracted, (148 MB/148 MB)
+2025-09-20 14:22:04 [INFO] tc.postgres:15 - Pulling image layers:  0 pending, 14 downloaded, 14 extracted, (148 MB/148 MB)
+2025-09-20 14:22:04 [INFO] tc.postgres:15 - Pull complete. 14 layers, pulled in 9s (downloaded 148 MB at 16 MB/s)
+2025-09-20 14:22:04 [INFO] tc.postgres:15 - Image postgres:15 pull took PT11.3847142S
+2025-09-20 14:22:04 [INFO] tc.postgres:15 - Creating container for image: postgres:15
+2025-09-20 14:22:04 [INFO] tc.postgres:15 - Container postgres:15 is starting: e1694fd419749cb258b8b82dc10ffedd5df14be0fd569c36271fe77ded54847e
+2025-09-20 14:22:06 [INFO] tc.postgres:15 - Container postgres:15 started in PT2.0507495S
+2025-09-20 14:22:06 [INFO] tc.postgres:15 - Container is started (JDBC URL: jdbc:postgresql://localhost:65056/user_db?loggerLevel=OFF)
+2025-09-20 14:22:06 [INFO] org.hibernate.Version - HHH000412: Hibernate ORM core version 7.1.0.Final
+2025-09-20 14:22:06 [WARN] org.hibernate.orm.deprecation - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2025-09-20 14:22:06 [WARN] o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-09-20 14:22:07 [WARN] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-20 14:22:07 [INFO] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/user_db]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 17.5
+	Default catalog/schema: user_db/public
+	Autocommit mode: false
+	Isolation level: READ_COMMITTED
+	JDBC fetch size: none
+	Pool: DriverManagerConnectionProviderImpl
+	Minimum pool size: 1
+	Maximum pool size: 20
+2025-09-20 14:22:08 [INFO] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-20 14:22:08 [WARN] o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-09-20 14:22:08 [WARN] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-20 14:22:08 [INFO] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:65056/user_db?loggerLevel=OFF]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 15.14
+	Default catalog/schema: user_db/public
+	Autocommit mode: false
+	Isolation level: READ_COMMITTED
+	JDBC fetch size: none
+	Pool: DriverManagerConnectionProviderImpl
+	Minimum pool size: 1
+	Maximum pool size: 20
+2025-09-20 14:22:08 [INFO] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-20 14:22:08 [WARN] org.hibernate.orm.jdbc.warn - HHH000247: ErrorCode: 0, SQLState: 00000
+2025-09-20 14:22:08 [WARN] org.hibernate.orm.jdbc.warn - constraint "ukk11y3pdtsrjgy8w9b6q4bjwrx" of relation "_user" does not exist, skipping
+2025-09-20 14:22:08 [INFO] ru.sakhapov.UserDao - Пользователь сохранён: name@mail.com
+2025-09-20 14:30:17 [INFO] o.testcontainers.images.PullPolicy - Image pull policy will be performed by: DefaultPullPolicy()
+2025-09-20 14:30:17 [INFO] o.t.utility.ImageNameSubstitutor - Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+2025-09-20 14:30:17 [INFO] o.testcontainers.DockerClientFactory - Testcontainers version: 1.20.0
+2025-09-20 14:30:17 [INFO] o.t.d.DockerClientProviderStrategy - Loaded org.testcontainers.dockerclient.NpipeSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+2025-09-20 14:30:17 [INFO] o.t.d.DockerClientProviderStrategy - Found Docker environment with local Npipe socket (npipe:////./pipe/docker_engine)
+2025-09-20 14:30:17 [INFO] o.testcontainers.DockerClientFactory - Docker host IP address is localhost
+2025-09-20 14:30:17 [INFO] o.testcontainers.DockerClientFactory - Connected to docker: 
+  Server Version: 28.3.0
+  API Version: 1.51
+  Operating System: Docker Desktop
+  Total Memory: 7903 MB
+2025-09-20 14:30:17 [INFO] tc.testcontainers/ryuk:0.8.1 - Creating container for image: testcontainers/ryuk:0.8.1
+2025-09-20 14:30:17 [INFO] o.t.utility.RegistryAuthLocator - Credential helper/store (docker-credential-desktop) does not have credentials for https://index.docker.io/v1/
+2025-09-20 14:30:18 [INFO] tc.testcontainers/ryuk:0.8.1 - Container testcontainers/ryuk:0.8.1 is starting: f8151f618a939aabae80c46e5d2c66fbe4cd0691766d3da672fc4239fc898a36
+2025-09-20 14:30:18 [INFO] tc.testcontainers/ryuk:0.8.1 - Container testcontainers/ryuk:0.8.1 started in PT0.5972412S
+2025-09-20 14:30:18 [INFO] o.t.utility.RyukResourceReaper - Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+2025-09-20 14:30:18 [INFO] o.testcontainers.DockerClientFactory - Checking the system...
+2025-09-20 14:30:18 [INFO] o.testcontainers.DockerClientFactory - ✔︎ Docker server version should be at least 1.6.0
+2025-09-20 14:30:18 [INFO] tc.postgres:15 - Creating container for image: postgres:15
+2025-09-20 14:30:18 [INFO] tc.postgres:15 - Container postgres:15 is starting: d907c69087bd1431211b75ae81e62250784817b4b866b4a74ff0da5e8b140a48
+2025-09-20 14:30:20 [INFO] tc.postgres:15 - Container postgres:15 started in PT1.7047925S
+2025-09-20 14:30:20 [INFO] tc.postgres:15 - Container is started (JDBC URL: jdbc:postgresql://localhost:65310/user_db?loggerLevel=OFF)
+2025-09-20 14:30:20 [INFO] org.hibernate.Version - HHH000412: Hibernate ORM core version 7.1.0.Final
+2025-09-20 14:30:20 [WARN] org.hibernate.orm.deprecation - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2025-09-20 14:30:20 [WARN] o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-09-20 14:30:20 [WARN] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-20 14:30:20 [INFO] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/user_db]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 17.5
+	Default catalog/schema: user_db/public
+	Autocommit mode: false
+	Isolation level: READ_COMMITTED
+	JDBC fetch size: none
+	Pool: DriverManagerConnectionProviderImpl
+	Minimum pool size: 1
+	Maximum pool size: 20
+2025-09-20 14:30:21 [INFO] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-20 14:30:21 [WARN] o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-09-20 14:30:21 [WARN] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-20 14:30:21 [INFO] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:65310/user_db?loggerLevel=OFF]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 15.14
+	Default catalog/schema: user_db/public
+	Autocommit mode: false
+	Isolation level: READ_COMMITTED
+	JDBC fetch size: none
+	Pool: DriverManagerConnectionProviderImpl
+	Minimum pool size: 1
+	Maximum pool size: 20
+2025-09-20 14:30:21 [INFO] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-20 14:30:21 [WARN] org.hibernate.orm.jdbc.warn - HHH000247: ErrorCode: 0, SQLState: 00000
+2025-09-20 14:30:21 [WARN] org.hibernate.orm.jdbc.warn - constraint "ukk11y3pdtsrjgy8w9b6q4bjwrx" of relation "_user" does not exist, skipping
+2025-09-20 14:30:21 [INFO] ru.sakhapov.UserDao - Пользователь сохранён: name@mail.com
+2025-09-20 14:30:22 [INFO] ru.sakhapov.UserDao - Юзер обновлен: id = 1
+2025-09-20 14:30:22 [INFO] ru.sakhapov.UserDao - Пользователь сохранён: name@mail.com
+2025-09-20 14:31:12 [INFO] o.testcontainers.images.PullPolicy - Image pull policy will be performed by: DefaultPullPolicy()
+2025-09-20 14:31:12 [INFO] o.t.utility.ImageNameSubstitutor - Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+2025-09-20 14:31:12 [INFO] o.testcontainers.DockerClientFactory - Testcontainers version: 1.20.0
+2025-09-20 14:31:12 [INFO] o.t.d.DockerClientProviderStrategy - Loaded org.testcontainers.dockerclient.NpipeSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+2025-09-20 14:31:12 [INFO] o.t.d.DockerClientProviderStrategy - Found Docker environment with local Npipe socket (npipe:////./pipe/docker_engine)
+2025-09-20 14:31:12 [INFO] o.testcontainers.DockerClientFactory - Docker host IP address is localhost
+2025-09-20 14:31:12 [INFO] o.testcontainers.DockerClientFactory - Connected to docker: 
+  Server Version: 28.3.0
+  API Version: 1.51
+  Operating System: Docker Desktop
+  Total Memory: 7903 MB
+2025-09-20 14:31:13 [INFO] tc.testcontainers/ryuk:0.8.1 - Creating container for image: testcontainers/ryuk:0.8.1
+2025-09-20 14:31:13 [INFO] o.t.utility.RegistryAuthLocator - Credential helper/store (docker-credential-desktop) does not have credentials for https://index.docker.io/v1/
+2025-09-20 14:31:13 [INFO] tc.testcontainers/ryuk:0.8.1 - Container testcontainers/ryuk:0.8.1 is starting: ad80ef35ded3e0850689829ac96cadfe46d7e5f948d82297b2006e3eccf1badf
+2025-09-20 14:31:13 [INFO] tc.testcontainers/ryuk:0.8.1 - Container testcontainers/ryuk:0.8.1 started in PT0.6069576S
+2025-09-20 14:31:13 [INFO] o.t.utility.RyukResourceReaper - Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+2025-09-20 14:31:13 [INFO] o.testcontainers.DockerClientFactory - Checking the system...
+2025-09-20 14:31:13 [INFO] o.testcontainers.DockerClientFactory - ✔︎ Docker server version should be at least 1.6.0
+2025-09-20 14:31:13 [INFO] tc.postgres:15 - Creating container for image: postgres:15
+2025-09-20 14:31:13 [INFO] tc.postgres:15 - Container postgres:15 is starting: a8362dfddadbd0d9e7c3b562464dd9865b8256f33482038db831bd8de57ff374
+2025-09-20 14:31:15 [INFO] tc.postgres:15 - Container postgres:15 started in PT1.5617827S
+2025-09-20 14:31:15 [INFO] tc.postgres:15 - Container is started (JDBC URL: jdbc:postgresql://localhost:65347/user_db?loggerLevel=OFF)
+2025-09-20 14:31:15 [INFO] org.hibernate.Version - HHH000412: Hibernate ORM core version 7.1.0.Final
+2025-09-20 14:31:15 [WARN] org.hibernate.orm.deprecation - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2025-09-20 14:31:15 [WARN] o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-09-20 14:31:15 [WARN] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-20 14:31:16 [INFO] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/user_db]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 17.5
+	Default catalog/schema: user_db/public
+	Autocommit mode: false
+	Isolation level: READ_COMMITTED
+	JDBC fetch size: none
+	Pool: DriverManagerConnectionProviderImpl
+	Minimum pool size: 1
+	Maximum pool size: 20
+2025-09-20 14:31:16 [INFO] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-20 14:31:16 [WARN] o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-09-20 14:31:16 [WARN] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-20 14:31:16 [INFO] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:65347/user_db?loggerLevel=OFF]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 15.14
+	Default catalog/schema: user_db/public
+	Autocommit mode: false
+	Isolation level: READ_COMMITTED
+	JDBC fetch size: none
+	Pool: DriverManagerConnectionProviderImpl
+	Minimum pool size: 1
+	Maximum pool size: 20
+2025-09-20 14:31:16 [INFO] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-20 14:31:16 [WARN] org.hibernate.orm.jdbc.warn - HHH000247: ErrorCode: 0, SQLState: 00000
+2025-09-20 14:31:16 [WARN] org.hibernate.orm.jdbc.warn - constraint "ukk11y3pdtsrjgy8w9b6q4bjwrx" of relation "_user" does not exist, skipping
+2025-09-20 14:31:17 [INFO] ru.sakhapov.UserDao - Пользователь сохранён: name@mail.com
+2025-09-20 14:31:17 [INFO] ru.sakhapov.UserDao - Юзер обновлен: id = 1
+2025-09-20 14:31:17 [INFO] ru.sakhapov.UserDao - Пользователь сохранён: name@mail.com
+2025-09-20 14:31:17 [INFO] ru.sakhapov.UserDao - Юзер удалён: name@mail.com
+2025-09-20 14:31:17 [INFO] ru.sakhapov.UserDao - Пользователь сохранён: name@mail.com
+2025-09-20 14:31:38 [INFO] o.testcontainers.images.PullPolicy - Image pull policy will be performed by: DefaultPullPolicy()
+2025-09-20 14:31:38 [INFO] o.t.utility.ImageNameSubstitutor - Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+2025-09-20 14:31:38 [INFO] o.testcontainers.DockerClientFactory - Testcontainers version: 1.20.0
+2025-09-20 14:31:38 [INFO] o.t.d.DockerClientProviderStrategy - Loaded org.testcontainers.dockerclient.NpipeSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+2025-09-20 14:31:39 [INFO] o.t.d.DockerClientProviderStrategy - Found Docker environment with local Npipe socket (npipe:////./pipe/docker_engine)
+2025-09-20 14:31:39 [INFO] o.testcontainers.DockerClientFactory - Docker host IP address is localhost
+2025-09-20 14:31:39 [INFO] o.testcontainers.DockerClientFactory - Connected to docker: 
+  Server Version: 28.3.0
+  API Version: 1.51
+  Operating System: Docker Desktop
+  Total Memory: 7903 MB
+2025-09-20 14:31:39 [INFO] tc.testcontainers/ryuk:0.8.1 - Creating container for image: testcontainers/ryuk:0.8.1
+2025-09-20 14:31:39 [INFO] o.t.utility.RegistryAuthLocator - Credential helper/store (docker-credential-desktop) does not have credentials for https://index.docker.io/v1/
+2025-09-20 14:31:39 [INFO] tc.testcontainers/ryuk:0.8.1 - Container testcontainers/ryuk:0.8.1 is starting: 2ce4941dee00cb6c087b198b901708ea670c01a0a777104a9eab8ec7d9f18d14
+2025-09-20 14:31:39 [INFO] tc.testcontainers/ryuk:0.8.1 - Container testcontainers/ryuk:0.8.1 started in PT0.6060699S
+2025-09-20 14:31:39 [INFO] o.t.utility.RyukResourceReaper - Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+2025-09-20 14:31:39 [INFO] o.testcontainers.DockerClientFactory - Checking the system...
+2025-09-20 14:31:39 [INFO] o.testcontainers.DockerClientFactory - ✔︎ Docker server version should be at least 1.6.0
+2025-09-20 14:31:39 [INFO] tc.postgres:15 - Creating container for image: postgres:15
+2025-09-20 14:31:40 [INFO] tc.postgres:15 - Container postgres:15 is starting: 7ae2a35b09af7924411bb928f6ab0c6d3b0ba24bf396a83cbda89a19daee1a1e
+2025-09-20 14:31:41 [INFO] tc.postgres:15 - Container postgres:15 started in PT1.6076636S
+2025-09-20 14:31:41 [INFO] tc.postgres:15 - Container is started (JDBC URL: jdbc:postgresql://localhost:65369/test?loggerLevel=OFF)
+2025-09-20 14:31:41 [INFO] org.hibernate.Version - HHH000412: Hibernate ORM core version 7.1.0.Final
+2025-09-20 14:31:41 [WARN] org.hibernate.orm.deprecation - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2025-09-20 14:31:42 [WARN] o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-09-20 14:31:42 [WARN] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-20 14:31:42 [INFO] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/user_db]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 17.5
+	Default catalog/schema: user_db/public
+	Autocommit mode: false
+	Isolation level: READ_COMMITTED
+	JDBC fetch size: none
+	Pool: DriverManagerConnectionProviderImpl
+	Minimum pool size: 1
+	Maximum pool size: 20
+2025-09-20 14:31:43 [INFO] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-20 14:31:43 [WARN] o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-09-20 14:31:43 [WARN] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-20 14:31:43 [INFO] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:65369/test?loggerLevel=OFF]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 15.14
+	Default catalog/schema: test/public
+	Autocommit mode: false
+	Isolation level: READ_COMMITTED
+	JDBC fetch size: none
+	Pool: DriverManagerConnectionProviderImpl
+	Minimum pool size: 1
+	Maximum pool size: 20
+2025-09-20 14:31:43 [INFO] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-20 14:31:43 [WARN] org.hibernate.orm.jdbc.warn - HHH000247: ErrorCode: 0, SQLState: 00000
+2025-09-20 14:31:43 [WARN] org.hibernate.orm.jdbc.warn - constraint "ukk11y3pdtsrjgy8w9b6q4bjwrx" of relation "_user" does not exist, skipping
+2025-09-20 14:31:43 [INFO] ru.sakhapov.UserDao - Пользователь сохранён: name@mail.com
+2025-09-20 14:31:43 [INFO] ru.sakhapov.UserDao - Юзер обновлен: id = 1
+2025-09-20 14:31:43 [INFO] ru.sakhapov.UserDao - Пользователь сохранён: name@mail.com
+2025-09-20 14:31:43 [INFO] ru.sakhapov.UserDao - Юзер удалён: name@mail.com
+2025-09-20 14:31:43 [INFO] ru.sakhapov.UserDao - Пользователь сохранён: name@mail.com
+2025-09-20 14:51:24 [INFO] o.testcontainers.images.PullPolicy - Image pull policy will be performed by: DefaultPullPolicy()
+2025-09-20 14:51:24 [INFO] o.t.utility.ImageNameSubstitutor - Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+2025-09-20 14:51:24 [INFO] o.testcontainers.DockerClientFactory - Testcontainers version: 1.20.0
+2025-09-20 14:51:24 [INFO] o.t.d.DockerClientProviderStrategy - Loaded org.testcontainers.dockerclient.NpipeSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+2025-09-20 14:51:25 [INFO] o.t.d.DockerClientProviderStrategy - Found Docker environment with local Npipe socket (npipe:////./pipe/docker_engine)
+2025-09-20 14:51:25 [INFO] o.testcontainers.DockerClientFactory - Docker host IP address is localhost
+2025-09-20 14:51:25 [INFO] o.testcontainers.DockerClientFactory - Connected to docker: 
+  Server Version: 28.3.0
+  API Version: 1.51
+  Operating System: Docker Desktop
+  Total Memory: 7903 MB
+2025-09-20 14:51:25 [INFO] tc.testcontainers/ryuk:0.8.1 - Creating container for image: testcontainers/ryuk:0.8.1
+2025-09-20 14:51:25 [INFO] o.t.utility.RegistryAuthLocator - Credential helper/store (docker-credential-desktop) does not have credentials for https://index.docker.io/v1/
+2025-09-20 14:51:25 [INFO] tc.testcontainers/ryuk:0.8.1 - Container testcontainers/ryuk:0.8.1 is starting: 66189faab22b34ab4c0be2ee611ad52dd7c4ace29bb38444a3ca9694a43993e1
+2025-09-20 14:51:25 [INFO] tc.testcontainers/ryuk:0.8.1 - Container testcontainers/ryuk:0.8.1 started in PT0.6126632S
+2025-09-20 14:51:25 [INFO] o.t.utility.RyukResourceReaper - Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+2025-09-20 14:51:25 [INFO] o.testcontainers.DockerClientFactory - Checking the system...
+2025-09-20 14:51:25 [INFO] o.testcontainers.DockerClientFactory - ✔︎ Docker server version should be at least 1.6.0
+2025-09-20 14:51:25 [INFO] tc.postgres:15 - Creating container for image: postgres:15
+2025-09-20 14:51:25 [INFO] tc.postgres:15 - Container postgres:15 is starting: fd5767bd7059179bac9be80d3e85ec972e62ac22002c3a729031bcc2dbe49e62
+2025-09-20 14:51:27 [INFO] tc.postgres:15 - Container postgres:15 started in PT1.5508024S
+2025-09-20 14:51:27 [INFO] tc.postgres:15 - Container is started (JDBC URL: jdbc:postgresql://localhost:49583/test?loggerLevel=OFF)
+2025-09-20 14:51:27 [INFO] org.hibernate.Version - HHH000412: Hibernate ORM core version 7.1.0.Final
+2025-09-20 14:51:27 [WARN] org.hibernate.orm.deprecation - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2025-09-20 14:51:27 [WARN] o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-09-20 14:51:28 [WARN] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-20 14:51:28 [INFO] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/user_db]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 17.5
+	Default catalog/schema: user_db/public
+	Autocommit mode: false
+	Isolation level: READ_COMMITTED
+	JDBC fetch size: none
+	Pool: DriverManagerConnectionProviderImpl
+	Minimum pool size: 1
+	Maximum pool size: 20
+2025-09-20 14:51:28 [INFO] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-20 14:51:28 [WARN] o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-09-20 14:51:28 [WARN] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-20 14:51:29 [INFO] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:49583/test?loggerLevel=OFF]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 15.14
+	Default catalog/schema: test/public
+	Autocommit mode: false
+	Isolation level: READ_COMMITTED
+	JDBC fetch size: none
+	Pool: DriverManagerConnectionProviderImpl
+	Minimum pool size: 1
+	Maximum pool size: 20
+2025-09-20 14:51:29 [INFO] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-20 14:51:29 [WARN] org.hibernate.orm.jdbc.warn - HHH000247: ErrorCode: 0, SQLState: 00000
+2025-09-20 14:51:29 [WARN] org.hibernate.orm.jdbc.warn - constraint "ukk11y3pdtsrjgy8w9b6q4bjwrx" of relation "_user" does not exist, skipping
+2025-09-20 14:51:29 [INFO] ru.sakhapov.UserDao - Пользователь сохранён: name@mail.com
+2025-09-20 14:51:29 [INFO] ru.sakhapov.UserDao - Юзер обновлен: id = 1
+2025-09-20 14:51:29 [INFO] ru.sakhapov.UserDao - Пользователь сохранён: name@mail.com
+2025-09-20 14:51:29 [INFO] ru.sakhapov.UserDao - Юзер удалён: name@mail.com
+2025-09-20 14:51:29 [INFO] ru.sakhapov.UserDao - Пользователь сохранён: name@mail.com
+2025-09-20 15:08:01 [INFO] o.testcontainers.images.PullPolicy - Image pull policy will be performed by: DefaultPullPolicy()
+2025-09-20 15:08:01 [INFO] o.t.utility.ImageNameSubstitutor - Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+2025-09-20 15:08:01 [INFO] o.testcontainers.DockerClientFactory - Testcontainers version: 1.20.0
+2025-09-20 15:08:01 [INFO] o.t.d.DockerClientProviderStrategy - Loaded org.testcontainers.dockerclient.NpipeSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+2025-09-20 15:08:02 [INFO] o.t.d.DockerClientProviderStrategy - Found Docker environment with local Npipe socket (npipe:////./pipe/docker_engine)
+2025-09-20 15:08:02 [INFO] o.testcontainers.DockerClientFactory - Docker host IP address is localhost
+2025-09-20 15:08:02 [INFO] o.testcontainers.DockerClientFactory - Connected to docker: 
+  Server Version: 28.3.0
+  API Version: 1.51
+  Operating System: Docker Desktop
+  Total Memory: 7903 MB
+2025-09-20 15:08:02 [INFO] tc.testcontainers/ryuk:0.8.1 - Creating container for image: testcontainers/ryuk:0.8.1
+2025-09-20 15:08:02 [INFO] o.t.utility.RegistryAuthLocator - Credential helper/store (docker-credential-desktop) does not have credentials for https://index.docker.io/v1/
+2025-09-20 15:08:02 [INFO] tc.testcontainers/ryuk:0.8.1 - Container testcontainers/ryuk:0.8.1 is starting: 595464a473a8688781822ea430279fcd95ac3b512cc598a921b3a7421dad1c6e
+2025-09-20 15:08:02 [INFO] tc.testcontainers/ryuk:0.8.1 - Container testcontainers/ryuk:0.8.1 started in PT0.5977056S
+2025-09-20 15:08:02 [INFO] o.t.utility.RyukResourceReaper - Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+2025-09-20 15:08:02 [INFO] o.testcontainers.DockerClientFactory - Checking the system...
+2025-09-20 15:08:02 [INFO] o.testcontainers.DockerClientFactory - ✔︎ Docker server version should be at least 1.6.0
+2025-09-20 15:08:02 [INFO] tc.postgres:15 - Creating container for image: postgres:15
+2025-09-20 15:08:02 [INFO] tc.postgres:15 - Container postgres:15 is starting: 7a26d3a99cafb4e6571c5410c9ede839d96d96e453107de5ad1d3d6634e97494
+2025-09-20 15:08:04 [INFO] tc.postgres:15 - Container postgres:15 started in PT1.6522974S
+2025-09-20 15:08:04 [INFO] tc.postgres:15 - Container is started (JDBC URL: jdbc:postgresql://localhost:49974/test?loggerLevel=OFF)
+2025-09-20 15:08:04 [INFO] org.hibernate.Version - HHH000412: Hibernate ORM core version 7.1.0.Final
+2025-09-20 15:08:04 [WARN] org.hibernate.orm.deprecation - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2025-09-20 15:08:05 [WARN] o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-09-20 15:08:05 [WARN] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-20 15:08:05 [INFO] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/user_db]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 17.5
+	Default catalog/schema: user_db/public
+	Autocommit mode: false
+	Isolation level: READ_COMMITTED
+	JDBC fetch size: none
+	Pool: DriverManagerConnectionProviderImpl
+	Minimum pool size: 1
+	Maximum pool size: 20
+2025-09-20 15:08:06 [INFO] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-20 15:08:06 [WARN] o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-09-20 15:08:06 [WARN] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-20 15:08:06 [INFO] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:49974/test?loggerLevel=OFF]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 15.14
+	Default catalog/schema: test/public
+	Autocommit mode: false
+	Isolation level: READ_COMMITTED
+	JDBC fetch size: none
+	Pool: DriverManagerConnectionProviderImpl
+	Minimum pool size: 1
+	Maximum pool size: 20
+2025-09-20 15:08:06 [INFO] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-20 15:08:06 [WARN] org.hibernate.orm.jdbc.warn - HHH000247: ErrorCode: 0, SQLState: 00000
+2025-09-20 15:08:06 [WARN] org.hibernate.orm.jdbc.warn - constraint "ukk11y3pdtsrjgy8w9b6q4bjwrx" of relation "_user" does not exist, skipping
+2025-09-20 15:08:06 [INFO] ru.sakhapov.UserDao - Пользователь сохранён: name@mail.com
+2025-09-20 15:08:06 [INFO] ru.sakhapov.UserDao - Юзер обновлен: id = 1
+2025-09-20 15:08:06 [INFO] ru.sakhapov.UserDao - Пользователь сохранён: name@mail.com
+2025-09-20 15:08:06 [INFO] ru.sakhapov.UserDao - Пользователь сохранён: name.second@mail.com
+2025-09-20 15:08:06 [WARN] org.hibernate.orm.jdbc.error - HHH000247: ErrorCode: 0, SQLState: 23505
+2025-09-20 15:08:06 [WARN] org.hibernate.orm.jdbc.error - ERROR: duplicate key value violates unique constraint "ukk11y3pdtsrjgy8w9b6q4bjwrx"
+  Detail: Key (email)=(name@mail.com) already exists.
+2025-09-20 15:08:06 [WARN] ru.sakhapov.UserDao - юзер с email name@mail.com уже существует
+2025-09-20 15:08:06 [ERROR] ru.sakhapov.UserDao - Неизвестная ошибка при удалении: id to load is required for loading
+java.lang.IllegalArgumentException: id to load is required for loading
+	at org.hibernate.event.spi.LoadEvent.<init>(LoadEvent.java:73)
+	at org.hibernate.event.spi.LoadEvent.<init>(LoadEvent.java:39)
+	at org.hibernate.internal.SessionImpl.makeLoadEvent(SessionImpl.java:1135)
+	at org.hibernate.internal.SessionImpl.load(SessionImpl.java:1255)
+	at org.hibernate.loader.internal.IdentifierLoadAccessImpl.doLoad(IdentifierLoadAccessImpl.java:181)
+	at org.hibernate.loader.internal.IdentifierLoadAccessImpl.lambda$load$1(IdentifierLoadAccessImpl.java:167)
+	at org.hibernate.loader.internal.IdentifierLoadAccessImpl.perform(IdentifierLoadAccessImpl.java:134)
+	at org.hibernate.loader.internal.IdentifierLoadAccessImpl.load(IdentifierLoadAccessImpl.java:167)
+	at org.hibernate.internal.SessionImpl.find(SessionImpl.java:2403)
+	at org.hibernate.internal.SessionImpl.find(SessionImpl.java:2372)
+	at ru.sakhapov.UserDao.deleteById(UserDao.java:84)
+	at ru.sakhapov.UserDaoIntegrationTest.shoudDeleteUser(UserDaoIntegrationTest.java:85)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:218)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:214)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:139)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:63)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:231)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+2025-09-20 15:08:06 [ERROR] ru.sakhapov.UserDao - Неизвестная ошибка null: id to load is required for loading
+java.lang.IllegalArgumentException: id to load is required for loading
+	at org.hibernate.event.spi.LoadEvent.<init>(LoadEvent.java:73)
+	at org.hibernate.event.spi.LoadEvent.<init>(LoadEvent.java:39)
+	at org.hibernate.internal.SessionImpl.makeLoadEvent(SessionImpl.java:1135)
+	at org.hibernate.internal.SessionImpl.load(SessionImpl.java:1255)
+	at org.hibernate.loader.internal.IdentifierLoadAccessImpl.doLoad(IdentifierLoadAccessImpl.java:181)
+	at org.hibernate.loader.internal.IdentifierLoadAccessImpl.lambda$load$1(IdentifierLoadAccessImpl.java:167)
+	at org.hibernate.loader.internal.IdentifierLoadAccessImpl.perform(IdentifierLoadAccessImpl.java:134)
+	at org.hibernate.loader.internal.IdentifierLoadAccessImpl.load(IdentifierLoadAccessImpl.java:167)
+	at org.hibernate.internal.SessionImpl.find(SessionImpl.java:2403)
+	at org.hibernate.internal.SessionImpl.find(SessionImpl.java:2372)
+	at ru.sakhapov.UserDao.findById(UserDao.java:42)
+	at ru.sakhapov.UserDaoIntegrationTest.shoudDeleteUser(UserDaoIntegrationTest.java:86)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:218)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:214)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:139)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:63)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:231)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+2025-09-20 15:08:06 [WARN] org.hibernate.orm.jdbc.error - HHH000247: ErrorCode: 0, SQLState: 23505
+2025-09-20 15:08:06 [WARN] org.hibernate.orm.jdbc.error - ERROR: duplicate key value violates unique constraint "ukk11y3pdtsrjgy8w9b6q4bjwrx"
+  Detail: Key (email)=(name@mail.com) already exists.
+2025-09-20 15:08:06 [WARN] ru.sakhapov.UserDao - юзер с email name@mail.com уже существует
+2025-09-20 15:08:06 [ERROR] ru.sakhapov.UserDao - Неизвестная ошибка null: id to load is required for loading
+java.lang.IllegalArgumentException: id to load is required for loading
+	at org.hibernate.event.spi.LoadEvent.<init>(LoadEvent.java:73)
+	at org.hibernate.event.spi.LoadEvent.<init>(LoadEvent.java:39)
+	at org.hibernate.internal.SessionImpl.makeLoadEvent(SessionImpl.java:1135)
+	at org.hibernate.internal.SessionImpl.load(SessionImpl.java:1255)
+	at org.hibernate.loader.internal.IdentifierLoadAccessImpl.doLoad(IdentifierLoadAccessImpl.java:181)
+	at org.hibernate.loader.internal.IdentifierLoadAccessImpl.lambda$load$1(IdentifierLoadAccessImpl.java:167)
+	at org.hibernate.loader.internal.IdentifierLoadAccessImpl.perform(IdentifierLoadAccessImpl.java:134)
+	at org.hibernate.loader.internal.IdentifierLoadAccessImpl.load(IdentifierLoadAccessImpl.java:167)
+	at org.hibernate.internal.SessionImpl.find(SessionImpl.java:2403)
+	at org.hibernate.internal.SessionImpl.find(SessionImpl.java:2372)
+	at ru.sakhapov.UserDao.findById(UserDao.java:42)
+	at ru.sakhapov.UserDaoIntegrationTest.shouldSaveAndFindById(UserDaoIntegrationTest.java:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:218)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:214)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:139)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:63)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:231)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+2025-09-20 15:17:06 [INFO] o.testcontainers.images.PullPolicy - Image pull policy will be performed by: DefaultPullPolicy()
+2025-09-20 15:17:06 [INFO] o.t.utility.ImageNameSubstitutor - Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+2025-09-20 15:17:06 [INFO] o.testcontainers.DockerClientFactory - Testcontainers version: 1.20.0
+2025-09-20 15:17:06 [INFO] o.t.d.DockerClientProviderStrategy - Loaded org.testcontainers.dockerclient.NpipeSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+2025-09-20 15:17:07 [INFO] o.t.d.DockerClientProviderStrategy - Found Docker environment with local Npipe socket (npipe:////./pipe/docker_engine)
+2025-09-20 15:17:07 [INFO] o.testcontainers.DockerClientFactory - Docker host IP address is localhost
+2025-09-20 15:17:07 [INFO] o.testcontainers.DockerClientFactory - Connected to docker: 
+  Server Version: 28.3.0
+  API Version: 1.51
+  Operating System: Docker Desktop
+  Total Memory: 7903 MB
+2025-09-20 15:17:07 [INFO] tc.testcontainers/ryuk:0.8.1 - Creating container for image: testcontainers/ryuk:0.8.1
+2025-09-20 15:17:07 [INFO] o.t.utility.RegistryAuthLocator - Credential helper/store (docker-credential-desktop) does not have credentials for https://index.docker.io/v1/
+2025-09-20 15:17:07 [INFO] tc.testcontainers/ryuk:0.8.1 - Container testcontainers/ryuk:0.8.1 is starting: 07b0e2223fedde93adc461ddb3c5dffc1f4336c9f70c9d3451cef229f0bc701a
+2025-09-20 15:17:07 [INFO] tc.testcontainers/ryuk:0.8.1 - Container testcontainers/ryuk:0.8.1 started in PT0.6058265S
+2025-09-20 15:17:07 [INFO] o.t.utility.RyukResourceReaper - Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+2025-09-20 15:17:07 [INFO] o.testcontainers.DockerClientFactory - Checking the system...
+2025-09-20 15:17:07 [INFO] o.testcontainers.DockerClientFactory - ✔︎ Docker server version should be at least 1.6.0
+2025-09-20 15:17:07 [INFO] tc.postgres:15 - Creating container for image: postgres:15
+2025-09-20 15:17:07 [INFO] tc.postgres:15 - Container postgres:15 is starting: e280d462adc6e4821ba4f2d8dfc843d3e7117026d2c8141bf67226de09ae26fc
+2025-09-20 15:17:09 [INFO] tc.postgres:15 - Container postgres:15 started in PT1.6469499S
+2025-09-20 15:17:09 [INFO] tc.postgres:15 - Container is started (JDBC URL: jdbc:postgresql://localhost:50274/test?loggerLevel=OFF)
+2025-09-20 15:17:09 [INFO] org.hibernate.Version - HHH000412: Hibernate ORM core version 7.1.0.Final
+2025-09-20 15:17:09 [WARN] org.hibernate.orm.deprecation - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2025-09-20 15:17:10 [WARN] o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-09-20 15:17:10 [WARN] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-20 15:17:10 [INFO] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/user_db]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 17.5
+	Default catalog/schema: user_db/public
+	Autocommit mode: false
+	Isolation level: READ_COMMITTED
+	JDBC fetch size: none
+	Pool: DriverManagerConnectionProviderImpl
+	Minimum pool size: 1
+	Maximum pool size: 20
+2025-09-20 15:17:11 [INFO] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-20 15:17:11 [WARN] o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-09-20 15:17:11 [WARN] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-20 15:17:11 [INFO] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:50274/test?loggerLevel=OFF]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 15.14
+	Default catalog/schema: test/public
+	Autocommit mode: false
+	Isolation level: READ_COMMITTED
+	JDBC fetch size: none
+	Pool: DriverManagerConnectionProviderImpl
+	Minimum pool size: 1
+	Maximum pool size: 20
+2025-09-20 15:17:11 [INFO] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-20 15:17:11 [WARN] org.hibernate.orm.jdbc.warn - HHH000247: ErrorCode: 0, SQLState: 00000
+2025-09-20 15:17:11 [WARN] org.hibernate.orm.jdbc.warn - constraint "ukk11y3pdtsrjgy8w9b6q4bjwrx" of relation "_user" does not exist, skipping
+2025-09-20 15:17:11 [INFO] ru.sakhapov.UserDao - Пользователь сохранён: name@mail.com
+2025-09-20 15:17:11 [INFO] ru.sakhapov.UserDao - Юзер обновлен: id = 1
+2025-09-20 15:17:11 [INFO] ru.sakhapov.UserDao - Пользователь сохранён: name@mail.com
+2025-09-20 15:17:11 [INFO] ru.sakhapov.UserDao - Пользователь сохранён: name.second@mail.com
+2025-09-20 15:17:11 [WARN] org.hibernate.orm.jdbc.error - HHH000247: ErrorCode: 0, SQLState: 23505
+2025-09-20 15:17:11 [WARN] org.hibernate.orm.jdbc.error - ERROR: duplicate key value violates unique constraint "ukk11y3pdtsrjgy8w9b6q4bjwrx"
+  Detail: Key (email)=(name@mail.com) already exists.
+2025-09-20 15:17:11 [WARN] ru.sakhapov.UserDao - юзер с email name@mail.com уже существует
+2025-09-20 15:17:11 [ERROR] ru.sakhapov.UserDao - Неизвестная ошибка при удалении: id to load is required for loading
+java.lang.IllegalArgumentException: id to load is required for loading
+	at org.hibernate.event.spi.LoadEvent.<init>(LoadEvent.java:73)
+	at org.hibernate.event.spi.LoadEvent.<init>(LoadEvent.java:39)
+	at org.hibernate.internal.SessionImpl.makeLoadEvent(SessionImpl.java:1135)
+	at org.hibernate.internal.SessionImpl.load(SessionImpl.java:1255)
+	at org.hibernate.loader.internal.IdentifierLoadAccessImpl.doLoad(IdentifierLoadAccessImpl.java:181)
+	at org.hibernate.loader.internal.IdentifierLoadAccessImpl.lambda$load$1(IdentifierLoadAccessImpl.java:167)
+	at org.hibernate.loader.internal.IdentifierLoadAccessImpl.perform(IdentifierLoadAccessImpl.java:134)
+	at org.hibernate.loader.internal.IdentifierLoadAccessImpl.load(IdentifierLoadAccessImpl.java:167)
+	at org.hibernate.internal.SessionImpl.find(SessionImpl.java:2403)
+	at org.hibernate.internal.SessionImpl.find(SessionImpl.java:2372)
+	at ru.sakhapov.UserDao.deleteById(UserDao.java:84)
+	at ru.sakhapov.UserDaoIntegrationTest.shoudDeleteUser(UserDaoIntegrationTest.java:85)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:218)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:214)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:139)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:63)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:231)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+2025-09-20 15:17:11 [ERROR] ru.sakhapov.UserDao - Неизвестная ошибка null: id to load is required for loading
+java.lang.IllegalArgumentException: id to load is required for loading
+	at org.hibernate.event.spi.LoadEvent.<init>(LoadEvent.java:73)
+	at org.hibernate.event.spi.LoadEvent.<init>(LoadEvent.java:39)
+	at org.hibernate.internal.SessionImpl.makeLoadEvent(SessionImpl.java:1135)
+	at org.hibernate.internal.SessionImpl.load(SessionImpl.java:1255)
+	at org.hibernate.loader.internal.IdentifierLoadAccessImpl.doLoad(IdentifierLoadAccessImpl.java:181)
+	at org.hibernate.loader.internal.IdentifierLoadAccessImpl.lambda$load$1(IdentifierLoadAccessImpl.java:167)
+	at org.hibernate.loader.internal.IdentifierLoadAccessImpl.perform(IdentifierLoadAccessImpl.java:134)
+	at org.hibernate.loader.internal.IdentifierLoadAccessImpl.load(IdentifierLoadAccessImpl.java:167)
+	at org.hibernate.internal.SessionImpl.find(SessionImpl.java:2403)
+	at org.hibernate.internal.SessionImpl.find(SessionImpl.java:2372)
+	at ru.sakhapov.UserDao.findById(UserDao.java:42)
+	at ru.sakhapov.UserDaoIntegrationTest.shoudDeleteUser(UserDaoIntegrationTest.java:86)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:218)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:214)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:139)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:63)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:231)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+2025-09-20 15:17:11 [WARN] org.hibernate.orm.jdbc.error - HHH000247: ErrorCode: 0, SQLState: 23505
+2025-09-20 15:17:11 [WARN] org.hibernate.orm.jdbc.error - ERROR: duplicate key value violates unique constraint "ukk11y3pdtsrjgy8w9b6q4bjwrx"
+  Detail: Key (email)=(name@mail.com) already exists.
+2025-09-20 15:17:11 [WARN] ru.sakhapov.UserDao - юзер с email name@mail.com уже существует
+2025-09-20 15:17:11 [ERROR] ru.sakhapov.UserDao - Неизвестная ошибка null: id to load is required for loading
+java.lang.IllegalArgumentException: id to load is required for loading
+	at org.hibernate.event.spi.LoadEvent.<init>(LoadEvent.java:73)
+	at org.hibernate.event.spi.LoadEvent.<init>(LoadEvent.java:39)
+	at org.hibernate.internal.SessionImpl.makeLoadEvent(SessionImpl.java:1135)
+	at org.hibernate.internal.SessionImpl.load(SessionImpl.java:1255)
+	at org.hibernate.loader.internal.IdentifierLoadAccessImpl.doLoad(IdentifierLoadAccessImpl.java:181)
+	at org.hibernate.loader.internal.IdentifierLoadAccessImpl.lambda$load$1(IdentifierLoadAccessImpl.java:167)
+	at org.hibernate.loader.internal.IdentifierLoadAccessImpl.perform(IdentifierLoadAccessImpl.java:134)
+	at org.hibernate.loader.internal.IdentifierLoadAccessImpl.load(IdentifierLoadAccessImpl.java:167)
+	at org.hibernate.internal.SessionImpl.find(SessionImpl.java:2403)
+	at org.hibernate.internal.SessionImpl.find(SessionImpl.java:2372)
+	at ru.sakhapov.UserDao.findById(UserDao.java:42)
+	at ru.sakhapov.UserDaoIntegrationTest.shouldSaveAndFindById(UserDaoIntegrationTest.java:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:218)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:214)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:139)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:63)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:231)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+2025-09-20 15:18:00 [INFO] o.testcontainers.images.PullPolicy - Image pull policy will be performed by: DefaultPullPolicy()
+2025-09-20 15:18:00 [INFO] o.t.utility.ImageNameSubstitutor - Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+2025-09-20 15:18:00 [INFO] o.testcontainers.DockerClientFactory - Testcontainers version: 1.20.0
+2025-09-20 15:18:00 [INFO] o.t.d.DockerClientProviderStrategy - Loaded org.testcontainers.dockerclient.NpipeSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+2025-09-20 15:18:01 [INFO] o.t.d.DockerClientProviderStrategy - Found Docker environment with local Npipe socket (npipe:////./pipe/docker_engine)
+2025-09-20 15:18:01 [INFO] o.testcontainers.DockerClientFactory - Docker host IP address is localhost
+2025-09-20 15:18:01 [INFO] o.testcontainers.DockerClientFactory - Connected to docker: 
+  Server Version: 28.3.0
+  API Version: 1.51
+  Operating System: Docker Desktop
+  Total Memory: 7903 MB
+2025-09-20 15:18:01 [INFO] tc.testcontainers/ryuk:0.8.1 - Creating container for image: testcontainers/ryuk:0.8.1
+2025-09-20 15:18:01 [INFO] o.t.utility.RegistryAuthLocator - Credential helper/store (docker-credential-desktop) does not have credentials for https://index.docker.io/v1/
+2025-09-20 15:18:01 [INFO] tc.testcontainers/ryuk:0.8.1 - Container testcontainers/ryuk:0.8.1 is starting: 7c17c98af96b9fdb9c8f56413249671d9497f5e02f5a220adfac84f2939dba7d
+2025-09-20 15:18:01 [INFO] tc.testcontainers/ryuk:0.8.1 - Container testcontainers/ryuk:0.8.1 started in PT0.5855132S
+2025-09-20 15:18:01 [INFO] o.t.utility.RyukResourceReaper - Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+2025-09-20 15:18:01 [INFO] o.testcontainers.DockerClientFactory - Checking the system...
+2025-09-20 15:18:01 [INFO] o.testcontainers.DockerClientFactory - ✔︎ Docker server version should be at least 1.6.0
+2025-09-20 15:18:01 [INFO] tc.postgres:15 - Creating container for image: postgres:15
+2025-09-20 15:18:01 [INFO] tc.postgres:15 - Container postgres:15 is starting: 29ac1013c76e26351c4c51f00a63eaed99a320bf4ebc7017c44a32a49e1b3581
+2025-09-20 15:18:03 [INFO] tc.postgres:15 - Container postgres:15 started in PT1.5493092S
+2025-09-20 15:18:03 [INFO] tc.postgres:15 - Container is started (JDBC URL: jdbc:postgresql://localhost:50311/test?loggerLevel=OFF)
+2025-09-20 15:18:03 [INFO] org.hibernate.Version - HHH000412: Hibernate ORM core version 7.1.0.Final
+2025-09-20 15:18:03 [WARN] org.hibernate.orm.deprecation - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2025-09-20 15:18:03 [WARN] o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-09-20 15:18:04 [WARN] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-20 15:18:04 [INFO] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/user_db]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 17.5
+	Default catalog/schema: user_db/public
+	Autocommit mode: false
+	Isolation level: READ_COMMITTED
+	JDBC fetch size: none
+	Pool: DriverManagerConnectionProviderImpl
+	Minimum pool size: 1
+	Maximum pool size: 20
+2025-09-20 15:18:05 [INFO] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-20 15:18:05 [WARN] o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-09-20 15:18:05 [WARN] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-20 15:18:05 [INFO] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:50311/test?loggerLevel=OFF]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 15.14
+	Default catalog/schema: test/public
+	Autocommit mode: false
+	Isolation level: READ_COMMITTED
+	JDBC fetch size: none
+	Pool: DriverManagerConnectionProviderImpl
+	Minimum pool size: 1
+	Maximum pool size: 20
+2025-09-20 15:18:05 [INFO] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-20 15:18:05 [WARN] org.hibernate.orm.jdbc.warn - HHH000247: ErrorCode: 0, SQLState: 00000
+2025-09-20 15:18:05 [WARN] org.hibernate.orm.jdbc.warn - constraint "ukk11y3pdtsrjgy8w9b6q4bjwrx" of relation "_user" does not exist, skipping
+2025-09-20 15:18:05 [INFO] ru.sakhapov.UserDao - Пользователь сохранён: name@mail.com
+2025-09-20 15:18:05 [INFO] ru.sakhapov.UserDao - Юзер обновлен: id = 1
+2025-09-20 15:18:05 [INFO] ru.sakhapov.UserDao - Пользователь сохранён: name@mail.com
+2025-09-20 15:18:05 [INFO] ru.sakhapov.UserDao - Пользователь сохранён: name.second@mail.com
+2025-09-20 15:18:05 [INFO] ru.sakhapov.UserDao - Пользователь сохранён: name@mail.com
+2025-09-20 15:18:05 [INFO] ru.sakhapov.UserDao - Юзер удалён: name@mail.com
+2025-09-20 15:18:05 [INFO] ru.sakhapov.UserDao - Пользователь сохранён: name@mail.com
+2025-09-20 20:24:10 [INFO] o.testcontainers.images.PullPolicy - Image pull policy will be performed by: DefaultPullPolicy()
+2025-09-20 20:24:10 [INFO] o.t.utility.ImageNameSubstitutor - Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+2025-09-20 20:24:10 [INFO] o.testcontainers.DockerClientFactory - Testcontainers version: 1.20.0
+2025-09-20 20:24:10 [INFO] o.t.d.DockerClientProviderStrategy - Loaded org.testcontainers.dockerclient.NpipeSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+2025-09-20 20:24:10 [INFO] o.t.d.DockerMachineClientProviderStrategy - docker-machine executable was not found on PATH ([C:\Program Files\Common Files\Oracle\Java\javapath, C:\Program Files (x86)\Common Files\Oracle\Java\java8path, C:\Program Files (x86)\Common Files\Oracle\Java\javapath, C:\Windows\system32, C:\Windows, C:\Windows\System32\Wbem, C:\Windows\System32\WindowsPowerShell\v1.0\, C:\Windows\System32\OpenSSH\, C:\Program Files\AmneziaWG\, C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR, C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common, C:\Program Files\dotnet\, C:\Program Files\Git\cmd, C:\Program Files\Docker\Docker\resources\bin, C:\Program Files\GitHub CLI\, C:\Program Files\nodejs\, C:\Program Files\PuTTY\, C:\Users\Fort\AppData\Local\Programs\Python\Python313\Scripts\, C:\Users\Fort\AppData\Local\Programs\Python\Python313\, C:\Users\Fort\AppData\Local\Microsoft\WindowsApps, , C:\Program Files\JetBrains\PyCharm Community Edition 2025.1.1\bin, , C:\Users\Fort\AppData\Roaming\npm, C:\Users\Fort\AppData\Local\Programs\Microsoft VS Code\bin])
+2025-09-20 20:24:10 [ERROR] o.t.d.DockerClientProviderStrategy - Could not find a valid Docker environment. Please check configuration. Attempted configurations were:
+As no valid configuration was found, execution cannot continue.
+See https://java.testcontainers.org/on_failure.html for more details.
+2025-09-20 20:24:34 [INFO] o.testcontainers.images.PullPolicy - Image pull policy will be performed by: DefaultPullPolicy()
+2025-09-20 20:24:34 [INFO] o.t.utility.ImageNameSubstitutor - Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+2025-09-20 20:24:34 [INFO] o.testcontainers.DockerClientFactory - Testcontainers version: 1.20.0
+2025-09-20 20:24:34 [INFO] o.t.d.DockerClientProviderStrategy - Loaded org.testcontainers.dockerclient.NpipeSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+2025-09-20 20:24:34 [INFO] o.t.d.DockerClientProviderStrategy - Found Docker environment with local Npipe socket (npipe:////./pipe/docker_engine)
+2025-09-20 20:24:34 [INFO] o.testcontainers.DockerClientFactory - Docker host IP address is localhost
+2025-09-20 20:24:34 [INFO] o.testcontainers.DockerClientFactory - Connected to docker: 
+  Server Version: 28.3.0
+  API Version: 1.51
+  Operating System: Docker Desktop
+  Total Memory: 7903 MB
+2025-09-20 20:24:34 [INFO] tc.testcontainers/ryuk:0.8.1 - Creating container for image: testcontainers/ryuk:0.8.1
+2025-09-20 20:24:35 [INFO] o.t.utility.RegistryAuthLocator - Credential helper/store (docker-credential-desktop) does not have credentials for https://index.docker.io/v1/
+2025-09-20 20:24:35 [INFO] tc.testcontainers/ryuk:0.8.1 - Container testcontainers/ryuk:0.8.1 is starting: da09151bc06eb3866218d1ef82ff64a43fecdc5f8135b26f48fa49b094bfd272
+2025-09-20 20:24:35 [INFO] tc.testcontainers/ryuk:0.8.1 - Container testcontainers/ryuk:0.8.1 started in PT0.7392241S
+2025-09-20 20:24:35 [INFO] o.t.utility.RyukResourceReaper - Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+2025-09-20 20:24:35 [INFO] o.testcontainers.DockerClientFactory - Checking the system...
+2025-09-20 20:24:35 [INFO] o.testcontainers.DockerClientFactory - ✔︎ Docker server version should be at least 1.6.0
+2025-09-20 20:24:35 [INFO] tc.postgres:15 - Creating container for image: postgres:15
+2025-09-20 20:24:35 [INFO] tc.postgres:15 - Container postgres:15 is starting: ac08b3b9c9fd13335af436d585c660e97ad3d278a1e54071c856b521435a668e
+2025-09-20 20:24:37 [INFO] tc.postgres:15 - Container postgres:15 started in PT1.6903928S
+2025-09-20 20:24:37 [INFO] tc.postgres:15 - Container is started (JDBC URL: jdbc:postgresql://localhost:63473/test?loggerLevel=OFF)
+2025-09-20 20:24:37 [INFO] org.hibernate.Version - HHH000412: Hibernate ORM core version 7.1.0.Final
+2025-09-20 20:24:37 [WARN] org.hibernate.orm.deprecation - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2025-09-20 20:24:37 [WARN] o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-09-20 20:24:38 [WARN] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-20 20:24:38 [INFO] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/user_db]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 17.5
+	Default catalog/schema: user_db/public
+	Autocommit mode: false
+	Isolation level: READ_COMMITTED
+	JDBC fetch size: none
+	Pool: DriverManagerConnectionProviderImpl
+	Minimum pool size: 1
+	Maximum pool size: 20
+2025-09-20 20:24:39 [INFO] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-20 20:24:39 [WARN] o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-09-20 20:24:39 [WARN] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-20 20:24:39 [INFO] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:63473/test?loggerLevel=OFF]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 15.14
+	Default catalog/schema: test/public
+	Autocommit mode: false
+	Isolation level: READ_COMMITTED
+	JDBC fetch size: none
+	Pool: DriverManagerConnectionProviderImpl
+	Minimum pool size: 1
+	Maximum pool size: 20
+2025-09-20 20:24:39 [INFO] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-20 20:24:39 [WARN] org.hibernate.orm.jdbc.warn - HHH000247: ErrorCode: 0, SQLState: 00000
+2025-09-20 20:24:39 [WARN] org.hibernate.orm.jdbc.warn - constraint "ukk11y3pdtsrjgy8w9b6q4bjwrx" of relation "_user" does not exist, skipping
+2025-09-20 20:24:39 [INFO] ru.sakhapov.UserDao - Пользователь сохранён: name@mail.com
+2025-09-20 20:24:39 [INFO] ru.sakhapov.UserDao - Юзер обновлен: id = 1
+2025-09-20 20:24:39 [INFO] ru.sakhapov.UserDao - Пользователь сохранён: name@mail.com
+2025-09-20 20:24:39 [INFO] ru.sakhapov.UserDao - Пользователь сохранён: name.second@mail.com
+2025-09-20 20:24:39 [INFO] ru.sakhapov.UserDao - Пользователь сохранён: name@mail.com
+2025-09-20 20:24:39 [INFO] ru.sakhapov.UserDao - Юзер удалён: name@mail.com
+2025-09-20 20:24:39 [INFO] ru.sakhapov.UserDao - Пользователь сохранён: name@mail.com
+2025-09-20 20:29:11 [INFO] ru.sakhapov.UserService - Создан юзер: name@mail.com
+2025-09-20 20:35:25 [INFO] ru.sakhapov.UserService - Создан юзер: name@mail.com
+2025-09-20 20:58:32 [INFO] ru.sakhapov.UserService - Обновлен юзер id=1 email=name@mail.com
+2025-09-20 20:59:27 [INFO] ru.sakhapov.UserService - Обновлен юзер id=1 email=name@mail.com
+2025-09-20 20:59:27 [INFO] ru.sakhapov.UserService - Создан юзер: name@mail.com
