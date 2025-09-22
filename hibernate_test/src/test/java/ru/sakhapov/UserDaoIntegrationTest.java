@@ -13,6 +13,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 
 @Testcontainers
+@TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 public class UserDaoIntegrationTest {
 
     @Container
@@ -44,36 +45,45 @@ public class UserDaoIntegrationTest {
     }
 
     @Test
+    @Order(1)
+    @DisplayName("Сохраняем юзера и находим его по id")
     void shouldSaveAndFindById() {
         User user = new User("Name", "name@mail.com", 22);
         userDao.save(user);
 
         User found = userDao.findById(user.getId());
 
-        assertNotNull(found);
-        assertEquals("Name", found.getName());
-        assertEquals("name@mail.com", found.getEmail());
+        assertNotNull(found, "юзер должен быть найден");
+        assertEquals("Name", found.getName(), "имя должно совпадать");
+        assertEquals("name@mail.com", found.getEmail(), "email должен совпадать");
+        assertEquals(22, found.getAge(), "возраст должен совпадать");
     }
 
     @Test
-    void testFindByIdNotExists() {
+    @Order(2)
+    @DisplayName("Поиск несуществующего юзера возвращает null")
+    void shouldReturnNullWhenIdNotExists() {
         User user = userDao.findById(100L);
-        assertNull(user);
+        assertNull(user, "юзер не должен существовать");
     }
 
     @Test
-    void testFindAll() {
+    @Order(3)
+    @DisplayName("Находим всех юзеров")
+    void shouldFindAllUsers() {
         userDao.save(new User("Name", "name@mail.com", 22));
         userDao.save(new User("Second Name", "name.second@mail.com", 23));
 
         List<User> users = userDao.findAll();
 
-        assertEquals(2, users.size());
+        assertEquals(2, users.size(), "Должно быть 2 юзера в базе");
         assertTrue(users.stream().anyMatch(u -> u.getName().equals("Name")));
         assertTrue(users.stream().anyMatch(u -> u.getName().equals("Second Name")));
     }
 
     @Test
+    @Order(4)
+    @DisplayName("Обновляем юзера")
     void shouldUpdateUser() {
         User user = new User("Name", "name@mail.com", 22);
         userDao.save(user);
@@ -89,7 +99,9 @@ public class UserDaoIntegrationTest {
     }
 
     @Test
-    void shoudDeleteUser() {
+    @Order(5)
+    @DisplayName("Удаляем юзера")
+    void shouldDeleteUser() {
         User user = new User("Name", "name@mail.com", 22);
         userDao.save(user);
 

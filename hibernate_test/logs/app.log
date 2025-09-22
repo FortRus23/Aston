@@ -1191,3 +1191,74 @@ See https://java.testcontainers.org/on_failure.html for more details.
 2025-09-22 11:35:11 [INFO] ru.sakhapov.UserService - Создан юзер: name@mail.com
 2025-09-22 11:39:09 [INFO] ru.sakhapov.UserService - Создан юзер: name@mail.com
 2025-09-22 11:39:09 [INFO] ru.sakhapov.UserService - Обновлен юзер id=1 email=updated@mail.com
+2025-09-22 12:07:54 [INFO] o.testcontainers.images.PullPolicy - Image pull policy will be performed by: DefaultPullPolicy()
+2025-09-22 12:07:54 [INFO] o.t.utility.ImageNameSubstitutor - Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+2025-09-22 12:07:54 [INFO] o.testcontainers.DockerClientFactory - Testcontainers version: 1.20.0
+2025-09-22 12:07:54 [INFO] o.t.d.DockerClientProviderStrategy - Loaded org.testcontainers.dockerclient.NpipeSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+2025-09-22 12:07:54 [INFO] o.t.d.DockerMachineClientProviderStrategy - docker-machine executable was not found on PATH ([C:\Program Files\Common Files\Oracle\Java\javapath, C:\Program Files (x86)\Common Files\Oracle\Java\java8path, C:\Program Files (x86)\Common Files\Oracle\Java\javapath, C:\Windows\system32, C:\Windows, C:\Windows\System32\Wbem, C:\Windows\System32\WindowsPowerShell\v1.0\, C:\Windows\System32\OpenSSH\, C:\Program Files\AmneziaWG\, C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR, C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common, C:\Program Files\dotnet\, C:\Program Files\Git\cmd, C:\Program Files\Docker\Docker\resources\bin, C:\Program Files\GitHub CLI\, C:\Program Files\nodejs\, C:\Program Files\PuTTY\, C:\Users\Fort\AppData\Local\Programs\Python\Python313\Scripts\, C:\Users\Fort\AppData\Local\Programs\Python\Python313\, C:\Users\Fort\AppData\Local\Microsoft\WindowsApps, , C:\Program Files\JetBrains\PyCharm Community Edition 2025.1.1\bin, , C:\Users\Fort\AppData\Roaming\npm, C:\Users\Fort\AppData\Local\Programs\Microsoft VS Code\bin])
+2025-09-22 12:07:54 [ERROR] o.t.d.DockerClientProviderStrategy - Could not find a valid Docker environment. Please check configuration. Attempted configurations were:
+As no valid configuration was found, execution cannot continue.
+See https://java.testcontainers.org/on_failure.html for more details.
+2025-09-22 12:12:03 [INFO] o.testcontainers.images.PullPolicy - Image pull policy will be performed by: DefaultPullPolicy()
+2025-09-22 12:12:03 [INFO] o.t.utility.ImageNameSubstitutor - Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+2025-09-22 12:12:03 [INFO] o.testcontainers.DockerClientFactory - Testcontainers version: 1.20.0
+2025-09-22 12:12:04 [INFO] o.t.d.DockerClientProviderStrategy - Loaded org.testcontainers.dockerclient.NpipeSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+2025-09-22 12:12:04 [INFO] o.t.d.DockerClientProviderStrategy - Found Docker environment with local Npipe socket (npipe:////./pipe/docker_engine)
+2025-09-22 12:12:04 [INFO] o.testcontainers.DockerClientFactory - Docker host IP address is localhost
+2025-09-22 12:12:04 [INFO] o.testcontainers.DockerClientFactory - Connected to docker: 
+  Server Version: 28.3.0
+  API Version: 1.51
+  Operating System: Docker Desktop
+  Total Memory: 7903 MB
+2025-09-22 12:12:04 [INFO] tc.testcontainers/ryuk:0.8.1 - Creating container for image: testcontainers/ryuk:0.8.1
+2025-09-22 12:12:04 [INFO] o.t.utility.RegistryAuthLocator - Credential helper/store (docker-credential-desktop) does not have credentials for https://index.docker.io/v1/
+2025-09-22 12:12:04 [INFO] tc.testcontainers/ryuk:0.8.1 - Container testcontainers/ryuk:0.8.1 is starting: 6439c92075090f08730b3ca9b3c4daa88aab66f79a75db54fc4b172d2dc29965
+2025-09-22 12:12:05 [INFO] tc.testcontainers/ryuk:0.8.1 - Container testcontainers/ryuk:0.8.1 started in PT0.8237208S
+2025-09-22 12:12:05 [INFO] o.t.utility.RyukResourceReaper - Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+2025-09-22 12:12:05 [INFO] o.testcontainers.DockerClientFactory - Checking the system...
+2025-09-22 12:12:05 [INFO] o.testcontainers.DockerClientFactory - ✔︎ Docker server version should be at least 1.6.0
+2025-09-22 12:12:05 [INFO] tc.postgres:15 - Creating container for image: postgres:15
+2025-09-22 12:12:05 [INFO] tc.postgres:15 - Container postgres:15 is starting: b6ec3dd0f7902e1bc44bd947a216c06f99ad3b9a2cc96d7d2f20d650f5c7e427
+2025-09-22 12:12:07 [INFO] tc.postgres:15 - Container postgres:15 started in PT1.7615328S
+2025-09-22 12:12:07 [INFO] tc.postgres:15 - Container is started (JDBC URL: jdbc:postgresql://localhost:62231/test?loggerLevel=OFF)
+2025-09-22 12:12:07 [INFO] org.hibernate.Version - HHH000412: Hibernate ORM core version 7.1.0.Final
+2025-09-22 12:12:07 [WARN] org.hibernate.orm.deprecation - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2025-09-22 12:12:07 [WARN] o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-09-22 12:12:08 [WARN] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-22 12:12:08 [INFO] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/user_db]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 17.5
+	Default catalog/schema: user_db/public
+	Autocommit mode: false
+	Isolation level: READ_COMMITTED
+	JDBC fetch size: none
+	Pool: DriverManagerConnectionProviderImpl
+	Minimum pool size: 1
+	Maximum pool size: 20
+2025-09-22 12:12:09 [INFO] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-22 12:12:09 [WARN] o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-09-22 12:12:09 [WARN] org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-22 12:12:09 [INFO] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:62231/test?loggerLevel=OFF]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 15.14
+	Default catalog/schema: test/public
+	Autocommit mode: false
+	Isolation level: READ_COMMITTED
+	JDBC fetch size: none
+	Pool: DriverManagerConnectionProviderImpl
+	Minimum pool size: 1
+	Maximum pool size: 20
+2025-09-22 12:12:09 [INFO] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-22 12:12:09 [WARN] org.hibernate.orm.jdbc.warn - HHH000247: ErrorCode: 0, SQLState: 00000
+2025-09-22 12:12:09 [WARN] org.hibernate.orm.jdbc.warn - constraint "ukk11y3pdtsrjgy8w9b6q4bjwrx" of relation "_user" does not exist, skipping
+2025-09-22 12:12:09 [INFO] ru.sakhapov.UserDao - Пользователь сохранён: name@mail.com
+2025-09-22 12:12:09 [INFO] ru.sakhapov.UserDao - Пользователь сохранён: name@mail.com
+2025-09-22 12:12:09 [INFO] ru.sakhapov.UserDao - Пользователь сохранён: name.second@mail.com
+2025-09-22 12:12:09 [INFO] ru.sakhapov.UserDao - Пользователь сохранён: name@mail.com
+2025-09-22 12:12:09 [INFO] ru.sakhapov.UserDao - Юзер обновлен: id = 4
+2025-09-22 12:12:09 [INFO] ru.sakhapov.UserDao - Пользователь сохранён: name@mail.com
+2025-09-22 12:12:09 [INFO] ru.sakhapov.UserDao - Юзер удалён: name@mail.com
