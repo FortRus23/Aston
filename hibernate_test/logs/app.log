@@ -1186,3 +1186,8 @@ See https://java.testcontainers.org/on_failure.html for more details.
 2025-09-20 20:58:32 [INFO] ru.sakhapov.UserService - Обновлен юзер id=1 email=name@mail.com
 2025-09-20 20:59:27 [INFO] ru.sakhapov.UserService - Обновлен юзер id=1 email=name@mail.com
 2025-09-20 20:59:27 [INFO] ru.sakhapov.UserService - Создан юзер: name@mail.com
+2025-09-22 11:22:42 [INFO] ru.sakhapov.UserService - Создан юзер: name@mail.com
+2025-09-22 11:26:20 [INFO] ru.sakhapov.UserService - Обновлен юзер id=1 email=updated@mail.com
+2025-09-22 11:35:11 [INFO] ru.sakhapov.UserService - Создан юзер: name@mail.com
+2025-09-22 11:39:09 [INFO] ru.sakhapov.UserService - Создан юзер: name@mail.com
+2025-09-22 11:39:09 [INFO] ru.sakhapov.UserService - Обновлен юзер id=1 email=updated@mail.com

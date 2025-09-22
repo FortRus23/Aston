@@ -2,6 +2,9 @@ package ru.sakhapov;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.CsvSource;
+import org.mockito.ArgumentCaptor;
 
 import java.util.List;
 
@@ -22,38 +25,32 @@ public class UserServiceTest {
     }
 
     @Test
-    void createUser() {
+    void createUser_ValidInput() {
+        ArgumentCaptor<User> captor = ArgumentCaptor.forClass(User.class);
+
         userService.createUser("Name", "name@mail.com", 25);
+        verify(userDao).save(captor.capture());
 
-        verify(userDao, times(1)).save(any(User.class));
+        User user = captor.getValue();
+        assertEquals("Name", user.getName());
+        assertEquals("name@mail.com", user.getEmail());
+        assertEquals(25, user.getAge());
     }
 
-    @Test
-    void createUser_InvalidName() {
+    @ParameterizedTest
+    @CsvSource({
+            " , test@mail.com, 25, Имя не может быть пустым",
+            "Name, bademail, 25, Некорректный email",
+            "Name, name@mail.com, -1, Возраст должен быть > 0"
+    })
+    void createUser_InvalidInputs(String name, String email, int age, String eMessage) {
         IllegalArgumentException e = assertThrows(
-                IllegalArgumentException.class, () -> userService.createUser("", "name@mail.com", 25)
+                IllegalArgumentException.class,
+                () -> userService.createUser(name, email, age)
         );
-
-        assertEquals("Имя не может быть пустым", e.getMessage());
+        assertEquals(eMessage, e.getMessage());
     }
 
-    @Test
-    void createUser_InvalidEmail() {
-        IllegalArgumentException e = assertThrows(
-                IllegalArgumentException.class, () -> userService.createUser("Name", "name.com", 25)
-        );
-
-        assertEquals("Некорректный email", e.getMessage());
-    }
-
-    @Test
-    void createUser_InvalidAge() {
-        IllegalArgumentException e = assertThrows(
-                IllegalArgumentException.class, () -> userService.createUser("Name", "name@mail.com", -5)
-        );
-
-        assertEquals("Возраст должен быть > 0", e.getMessage());
-    }
 
     @Test
     void getAllUsers() {
@@ -71,7 +68,7 @@ public class UserServiceTest {
     }
 
     @Test
-    void getUserById() {
+    void getUserById_Valid() {
         User user = new User("Name", "name@mail.com", 25);
         when(userDao.findById(1L)).thenReturn(user);
 
@@ -83,29 +80,63 @@ public class UserServiceTest {
     }
 
     @Test
-    void updateUser() {
-        userService.updateUser(1L, "Name", "name@mail.com", 25);
+    void getUserById_Invalid() {
+        when(userDao.findById(99L)).thenReturn(null);
 
-        verify(userDao, times(1))
-                .update(1L, "Name", "name@mail.com", 25);
+        User found = userService.getUserById(99L);
+
+        assertNull(found);
+        verify(userDao, times(1)).findById(99L);
     }
 
     @Test
-    void updateUser_InvalidId_ThrowsException() {
+    void updateUser_Valid() {
+        ArgumentCaptor<Long> id = ArgumentCaptor.forClass(Long.class);
+        ArgumentCaptor<String> name = ArgumentCaptor.forClass(String.class);
+        ArgumentCaptor<String> email = ArgumentCaptor.forClass(String.class);
+        ArgumentCaptor<Integer> age = ArgumentCaptor.forClass(Integer.class);
+
+        userService.updateUser(1L, "Updated", "updated@mail.com", 25);
+
+        verify(userDao).update(id.capture(), name.capture(), email.capture(), age.capture());
+
+        assertEquals(1L, id.getValue());
+        assertEquals("Updated", name.getValue());
+        assertEquals("updated@mail.com", email.getValue());
+        assertEquals(25, age.getValue());
+    }
+
+    @ParameterizedTest
+    @CsvSource({
+            "0, Name, name@mail.com, 25, Неверный id",
+            "-1, Name, name@mail.com, 25, Неверный id",
+            "1,  , name@mail.com, 25, Имя не может быть пустым",
+            "1, Name, badEmail, 25, Некорректный email",
+            "1, Name, name@mail.com, 0, Возраст должен быть > 0"
+    })
+    void updateUser_InvalidInputs(Long id, String name, String email, int age, String eMessage) {
         IllegalArgumentException e = assertThrows(
                 IllegalArgumentException.class,
-                () -> userService.updateUser(0L, "Name", "name@mail.com", 25)
+                () -> userService.updateUser(id, name, email, age)
         );
-        assertEquals("Неверный id", e.getMessage());
+
+        assertEquals(eMessage, e.getMessage());
         verify(userDao, never()).update(anyLong(), anyString(), anyString(), anyInt());
     }
 
     @Test
-    void deleteUser_CallsDaoDelete() {
+    void deleteUser_Valid() {
         userService.deleteUser(1L);
 
         verify(userDao, times(1)).deleteById(1L);
     }
 
+    @Test
+    void deleteUser_Invalid() {
+        doNothing().when(userDao).deleteById(99L);
 
+        userService.deleteUser(99L);
+
+        verify(userDao, times(1)).deleteById(99L);
+    }
 }
